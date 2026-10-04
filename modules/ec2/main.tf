@@ -3,8 +3,5 @@ resource "aws_instance" "demo-ec2" {
   instance_type = var.instance_type
   subnet_id = var.subnet_id
   key_name = var.key_name
-
-tags = {
-    Name = "demo-instance"
-  }
+  tags = var.tags
 }

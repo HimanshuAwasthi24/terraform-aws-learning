@@ -17,3 +17,7 @@ variable "key_name" {
   description = "EC2 key pair name"
   type        = string
 }
+variable "tags" {
+  description = "Tags to apply to the S3 bucket"
+  type        = map(string)
+}

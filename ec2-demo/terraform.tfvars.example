@@ -1,4 +1,0 @@
-instance_type  = "t3.micro"
-subnet_id      = "subnet-xxxxxxxx"
-ami_id         = "ami-xxxxxxxx"
-key_name_value = "example-key"

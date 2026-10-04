@@ -1,0 +1,13 @@
+instance_type  = "value"
+subnet_id      = "value"
+ami_id         = "value"
+key_name_value = "value"
+bucket_prefix  = "prefix-"
+s3-tags = {
+  Name        = "value"
+  Environment = "value"
+  ManagedBy   = "value"
+}
+ec2-tags = {
+  Name = "value"
+}
