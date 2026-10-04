@@ -23,5 +23,8 @@ sudo ./aws/install
 3. **Change terraform.tfvars**
 ```bash
 cp terraform.tfvars.example terraform.tfvars
+terraform init
+terraform plan
+terraform apply
 ```
 **Note:** *make changes to terraform.tfvars according to your resources in aws*
